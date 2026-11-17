@@ -1,0 +1,411 @@
+export const referenceSource = {
+  label: 'Synthèse CNED, septembre 2025',
+  situationDate: '30/06/2025',
+  status: 'Donnée de référence',
+  portfolioProjectCount: 51,
+  portfolioAe: 6538.3,
+  pendingApprovals: 36.242
+};
+
+export const referenceProjects = [
+  {
+    slug: 'djendjen',
+    id: 'CNED-TP-001',
+    name: 'Pénétrante Djendjen – Autoroute Est-Ouest',
+    sector: 'Travaux publics',
+    wilayas: ['Jijel', 'Mila', 'Sétif'],
+    coordinates: [36.8, 5.8],
+    aeInitial: 90,
+    aeCurrent: 214.375,
+    committed: 210.824,
+    paid: 136.73,
+    physical: 62,
+    financial: 61.32,
+    timeConsumed: 91,
+    startDate: '10/03/2014',
+    initialDurationMonths: 36,
+    currentDurationMonths: 138,
+    contractualEnd: '06/09/2026',
+    contractor: 'Rizzani de Decher – MAPA – SAPTA (ETRHB remplacé)',
+    bet: 'SNC Lavalin – CTTP',
+    control: 'EGIS – SAETI – LTPE',
+    worksContract: 183.586,
+    pendingAmendment: 9.071,
+    stopped: false,
+    observation: 'Cadence améliorée depuis septembre 2023 ; expropriation et réseaux non achevés.',
+    recommendation: 'Achever la libération des emprises ; arrêter la consistance et le coût de la section PK 34–38.'
+  },
+  {
+    slug: 'bejaia',
+    id: 'CNED-TP-002',
+    name: 'Pénétrante Béjaïa – Autoroute Est-Ouest',
+    sector: 'Travaux publics',
+    wilayas: ['Béjaïa'],
+    coordinates: [36.55, 4.75],
+    aeInitial: 190,
+    aeCurrent: 169.102,
+    committed: 168.646,
+    paid: 151.79,
+    physical: 88.5,
+    financial: 88.41,
+    timeConsumed: 96,
+    startDate: '18/12/2013',
+    initialDurationMonths: 36,
+    currentDurationMonths: 126,
+    contractualEnd: '27/12/2025',
+    contractor: 'SAPTA – CRCC',
+    bet: 'Kyong Dong – Saman',
+    control: 'Dar El Handassa – SETS – LCTP',
+    worksContract: 140.929,
+    pendingAmendment: 5,
+    stopped: false,
+    observation: '88 km sur 100 en service ; le raccordement au port dépend d’un tronçon de 11 km à emprise non libérée.',
+    recommendation: 'Achever la libération de l’emprise du premier tronçon.'
+  },
+  {
+    slug: 'tizi',
+    id: 'CNED-TP-003',
+    name: 'Pénétrante Tizi Ouzou – Autoroute Est-Ouest',
+    sector: 'Travaux publics',
+    wilayas: ['Tizi Ouzou', 'Bouira'],
+    coordinates: [36.7, 4.05],
+    aeInitial: 60,
+    aeCurrent: 130.8,
+    committed: 128.115,
+    paid: 100.127,
+    physical: 68,
+    financial: 75.08,
+    timeConsumed: 95.45,
+    startDate: '03/03/2014',
+    initialDurationMonths: 36,
+    currentDurationMonths: 132,
+    contractualEnd: '13/01/2026',
+    contractor: 'ENGOA – Özgun – Nurol',
+    bet: 'Information indisponible',
+    control: 'Italoconsult – CTTP',
+    worksContract: 109.425,
+    pendingAmendment: 5.8,
+    stopped: false,
+    observation: 'Glissement de terrain du 25 février 2025 (PK 35+300).',
+    recommendation: 'Arrêter la solution de traitement du glissement pour permettre sa prise en charge.'
+  },
+  {
+    slug: 'tenes',
+    id: 'CNED-TP-004',
+    name: 'Pénétrante de Ténès (22 km)',
+    sector: 'Travaux publics',
+    wilayas: ['Chlef'],
+    coordinates: [36.5, 1.3],
+    aeInitial: 30,
+    aeCurrent: 30,
+    committed: 28.739,
+    paid: 12.83,
+    physical: 51,
+    financial: 39.02,
+    timeConsumed: 100,
+    startDate: '29/03/2015',
+    initialDurationMonths: 24,
+    currentDurationMonths: 56,
+    contractualEnd: 'Février 2020',
+    contractor: 'ETRHB – Bouferradji – Teixeira Duarte (résilié)',
+    bet: 'SAETI – CTTP – LTPC',
+    control: 'LCTP – LECACT',
+    worksContract: null,
+    pendingAmendment: 0,
+    stopped: true,
+    observation: 'Chantier à l’arrêt depuis juin 2021 ; marché résilié à l’amiable le 24/02/2025.',
+    recommendation: 'Préserver les travaux réalisés, relancer le reste à réaliser et achever le déplacement des réseaux.'
+  },
+  {
+    slug: 'guelma',
+    id: 'CNED-TP-005',
+    name: 'Pénétrante Guelma – Autoroute Est-Ouest',
+    sector: 'Travaux publics',
+    wilayas: ['Guelma'],
+    coordinates: [36.46, 7.43],
+    aeInitial: 35,
+    aeCurrent: 35,
+    committed: 9.626,
+    paid: 9.282,
+    physical: 22,
+    financial: 88.26,
+    timeConsumed: 100,
+    startDate: '18/01/2015',
+    initialDurationMonths: 24,
+    currentDurationMonths: 48,
+    contractualEnd: '24/09/2019',
+    contractor: 'ENGOA – EPTP Constantine – SATRPB – KOU GC (résilié)',
+    bet: 'SETS – Global Via – SETIA – ICA',
+    control: 'LTPE – SETA – TEC4',
+    worksContract: null,
+    pendingAmendment: 0,
+    stopped: true,
+    observation: 'Marché résilié aux torts du groupement le 04/02/2024 ; appel d’offres du lot 2 infructueux.',
+    recommendation: 'Préserver les travaux réalisés et relancer les travaux restants.'
+  },
+  {
+    slug: 'benimansour',
+    id: 'CNED-TP-006',
+    name: 'Doublement ligne Béni Mansour – Béjaïa',
+    sector: 'Travaux publics',
+    wilayas: ['Bouira', 'Béjaïa'],
+    coordinates: [36.15, 4.6],
+    aeInitial: 65,
+    aeCurrent: 74,
+    committed: 66.517,
+    paid: 21.293,
+    physical: 28.45,
+    financial: 14.38,
+    timeConsumed: 100,
+    startDate: '18/06/2014',
+    initialDurationMonths: 60,
+    currentDurationMonths: 118,
+    contractualEnd: '12/06/2025',
+    contractor: 'Cosider TP & OA – Infrarail – Estel',
+    bet: 'Getinsa – Setirail – SAETI',
+    control: 'Setirail – SAETI – Sidem',
+    worksContract: 73.369,
+    pendingAmendment: 0,
+    stopped: false,
+    observation: 'Arrêt de plus de quatre ans (opposition des expropriés) ; emprise non totalement libérée.',
+    recommendation: 'Libérer totalement l’emprise avec les autorités locales et les gestionnaires de réseaux.'
+  },
+  {
+    slug: 'tlelat',
+    id: 'CNED-TP-007',
+    name: 'Ligne Oued Tlélat – Tlemcen',
+    sector: 'Travaux publics',
+    wilayas: ['Oran', 'Tlemcen'],
+    coordinates: [35.15, -1],
+    aeInitial: 49.84,
+    aeCurrent: 203.938,
+    committed: 203.746,
+    paid: 167.048,
+    physical: 83.74,
+    financial: 76.36,
+    timeConsumed: 100,
+    startDate: '09/08/2008',
+    initialDurationMonths: 39,
+    currentDurationMonths: 166.5,
+    contractualEnd: '15/06/2025',
+    contractor: 'Condotte – Rizzani de Eccher',
+    bet: 'Condotte – Rizzani de Eccher (APD)',
+    control: 'TPF Planege – Getinsa – SAETI',
+    worksContract: 153.102,
+    pendingAmendment: 0,
+    stopped: false,
+    observation: 'Relance depuis octobre 2023 ; travaux à l’entrée de Tlemcen (2 km) non entamés.',
+    recommendation: 'Prendre les dispositions avec la SNTF et les autorités locales pour lancer les travaux à l’entrée de Tlemcen.'
+  },
+  {
+    slug: 'akkid',
+    id: 'CNED-TP-008',
+    name: 'Ligne Tlemcen – Akkid Abbes',
+    sector: 'Travaux publics',
+    wilayas: ['Tlemcen'],
+    coordinates: [34.75, -1.7],
+    aeInitial: 80,
+    aeCurrent: 127.2,
+    committed: 121.223,
+    paid: 26.502,
+    physical: 8,
+    financial: 5.55,
+    timeConsumed: 99.71,
+    startDate: '20/03/2013',
+    initialDurationMonths: 48,
+    currentDurationMonths: 93,
+    contractualEnd: 'Information indisponible',
+    contractor: 'ETRHB – MAPA',
+    bet: 'Information indisponible',
+    control: 'TPF Planège – Getinsa-Payma – SAETI',
+    worksContract: null,
+    pendingAmendment: 0,
+    stopped: true,
+    observation: 'Ordre de service d’arrêt notifié le 17/06/2021 (situation de l’entreprise chef de file).',
+    recommendation: 'Aucune recommandation dans la fiche CNED.'
+  },
+  {
+    slug: 'boukhroufa',
+    id: 'CNED-HY-001',
+    name: 'Barrage de Boukhroufa',
+    sector: 'Hydraulique',
+    wilayas: ['El Tarf'],
+    coordinates: [36.7, 8.2],
+    aeInitial: 9,
+    aeCurrent: 22.077,
+    committed: 21.266,
+    paid: 16.542,
+    physical: 80,
+    financial: 73.11,
+    timeConsumed: 87,
+    startDate: '29/10/2013',
+    initialDurationMonths: 45,
+    currentDurationMonths: 118,
+    contractualEnd: 'Information indisponible',
+    contractor: 'Nurol – Gesi TP',
+    bet: 'ENHYD (études, 1996)',
+    control: 'ENM – CTH – ENB',
+    worksContract: null,
+    pendingAmendment: 0,
+    stopped: true,
+    observation: 'À l’arrêt depuis le 03/11/2022 ; le groupement refuse la reprise pour créances impayées.',
+    recommendation: 'Aucune recommandation dans la fiche CNED.'
+  },
+  {
+    slug: 'tleta',
+    id: 'CNED-HY-002',
+    name: 'Barrage de Souk Tleta',
+    sector: 'Hydraulique',
+    wilayas: ['Tizi Ouzou'],
+    coordinates: [36.52, 3.85],
+    aeInitial: 11,
+    aeCurrent: 34.326,
+    committed: 32.61,
+    paid: 26.257,
+    physical: 88,
+    financial: 68,
+    timeConsumed: 100,
+    startDate: '15/05/2012',
+    initialDurationMonths: 40,
+    currentDurationMonths: 107,
+    contractualEnd: 'Novembre 2024',
+    contractor: 'Nurol – Ozaltin',
+    bet: 'Information indisponible',
+    control: 'Tractebel',
+    worksContract: 13.005,
+    pendingAmendment: 0.608,
+    stopped: false,
+    observation: 'Mise en eau conditionnée par les déviations RN 25 et CW 128 et par le viaduc ; marché ajourné faute de couverture financière.',
+    recommendation: 'Aucune recommandation dans la fiche CNED.'
+  },
+  {
+    slug: 'chu',
+    id: 'CNED-HU-001',
+    name: 'CHU de 400 lits à Ouargla',
+    sector: 'Habitat, urbanisme et ville',
+    wilayas: ['Ouargla'],
+    coordinates: [31.95, 5.33],
+    aeInitial: null,
+    aeCurrent: 25,
+    committed: 24.003,
+    paid: 5.628,
+    physical: 17,
+    financial: 20.27,
+    timeConsumed: 42,
+    startDate: '14/02/2024',
+    initialDurationMonths: 36,
+    currentDurationMonths: 36,
+    contractualEnd: '13/03/2027',
+    contractor: 'Cosider Construction',
+    bet: 'Zerarga Hocine (maîtrise d’œuvre)',
+    control: 'Zerarga Hocine (suivi)',
+    worksContract: 23.263,
+    pendingAmendment: 0,
+    stopped: false,
+    observation: 'Démarrage effectif sept mois après l’ordre de service (main-d’œuvre, chaleur, granulats).',
+    recommendation: 'Instruire l’entreprise à renforcer ses moyens et à lancer à temps les appels d’offres de sous-traitance.'
+  }
+];
+
+export const pendingAmendments = [
+  { project: 'Autoroute Est-Ouest, lot Est', object: 'Avenant n°05 — tunnel T1', amount: 4.163, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Quatrième Rocade, lot 1', object: 'Avenant n°11 travaux, n°12–13 contrôle', amount: 6, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Pénétrante Djendjen', object: 'Avenant n°14 travaux, n°08 contrôle', amount: 9.071, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Pénétrante Béjaïa', object: 'Avenant n°11 contrôle, révisions de prix, pertes de change', amount: 5, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Pénétrante Tizi Ouzou', object: 'Avenant n°12 travaux', amount: 5.8, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Liaison Mascara', object: 'Avenant n°09, lot 2', amount: 5.6, status: 'Approbation Gouvernement ou Conseil des ministres' },
+  { project: 'Barrage de Souk Tleta', object: 'Avenant n°07 travaux', amount: 0.608, status: 'Reporté : manque de couverture financière' },
+  { project: 'Ligne Boughezoul – Djelfa', object: 'Avenant n°13, prorogation de 3 mois', amount: null, status: 'Instruction à la Commission sectorielle des marchés' },
+  { project: 'Ligne Saïda – Tiaret', object: 'Avenant n°14', amount: null, status: 'Visé avec réserves non suspensives' }
+];
+
+export const referenceActions = [
+  { projectSlug: 'djendjen', action: 'Libérer les emprises restantes', recipients: 'Autorités locales, gestionnaires de réseaux' },
+  { projectSlug: 'djendjen', action: 'Arrêter la consistance et le coût de la section PK 34–38', recipients: 'Maître d’ouvrage' },
+  { projectSlug: 'bejaia', action: 'Libérer l’emprise du tronçon de 11 km', recipients: 'Autorités locales' },
+  { projectSlug: 'tizi', action: 'Arrêter la solution de traitement du glissement', recipients: 'Maître d’ouvrage et BET' },
+  { projectSlug: 'tenes', action: 'Relancer le reste à réaliser et achever le déplacement des réseaux', recipients: 'Maître d’ouvrage' },
+  { projectSlug: 'guelma', action: 'Relancer les travaux restants (lot 2 infructueux)', recipients: 'Maître d’ouvrage' },
+  { projectSlug: 'tlelat', action: 'Lancer les travaux d’entrée de Tlemcen avec la SNTF', recipients: 'SNTF, autorités locales' },
+  { projectSlug: 'benimansour', action: 'Libérer totalement l’emprise', recipients: 'Autorités locales, gestionnaires de réseaux' },
+  { projectSlug: 'chu', action: 'Renforcer l’organisation du chantier et lancer les appels d’offres de sous-traitance', recipients: 'Contractant' }
+];
+
+export const djendjenTechnicalLots = [
+  { name: 'Études d’exécution', progress: 95 },
+  { name: 'Lot route', progress: 58 },
+  { name: 'Lot ouvrages d’art', progress: 62 },
+  { name: 'Lot tunnel', progress: 74 }
+];
+
+export const djendjenOperationalFields = [
+  { group: 'Mise en service', name: 'Linéaire mis en service', status: 'À renseigner' },
+  { group: 'Emprises', name: 'Acquisition et libération foncière', status: 'À valider' },
+  { group: 'Réseaux', name: 'Déplacements de réseaux', status: 'À valider' },
+  { group: 'Moyens', name: 'Effectifs et équipements de l’entreprise', status: 'À renseigner' },
+  { group: 'Terrain', name: 'Dernière visite de chantier', status: 'À renseigner' },
+  { group: 'Terrain', name: 'Photographies géolocalisées', status: 'À renseigner' },
+  { group: 'Engagements', name: 'Engagements hebdomadaires et réalisés', status: 'À renseigner' },
+  { group: 'Engagements', name: 'Causes des engagements non réalisés', status: 'À renseigner' },
+  { group: 'Blocages', name: 'Parcelles bloquées et plans de déblocage approuvés', status: 'À valider' },
+  { group: 'Section PK 34–38', name: 'Consistance, coût et solution retenue', status: 'Arbitrage requis' }
+];
+
+export function referenceStatus(project) {
+  if (project.stopped) return 'À l’arrêt';
+  return project.timeConsumed - project.physical >= 15 || project.timeConsumed >= 100 ? 'En retard' : 'À surveiller';
+}
+
+export function referenceAlerts(project) {
+  const alerts = [];
+  const aeRatio = project.aeInitial ? project.aeCurrent / project.aeInitial : null;
+  const delayRatio = project.currentDurationMonths / project.initialDurationMonths;
+  const gap = project.financial - project.physical;
+  if (project.stopped) alerts.push({ severity: 'Critique', title: 'Chantier à l’arrêt ou marché résilié', action: 'Décider du plan de relance du reste à réaliser.' });
+  if (aeRatio >= 2) alerts.push({ severity: aeRatio >= 3 ? 'Critique' : 'Important', title: `Dérive de l’AE : × ${aeRatio.toFixed(1)} depuis l’inscription`, action: 'Examiner la consistance et les réévaluations successives.' });
+  if (delayRatio > 2) alerts.push({ severity: 'Important', title: `Délai en vigueur : × ${delayRatio.toFixed(1)} le délai initial`, action: 'Vérifier les prolongations et leur part légitime.' });
+  if (Math.abs(gap) >= 10 && !project.stopped) alerts.push({
+    severity: 'Important',
+    title: `Paiements ${gap > 0 ? 'en avance de' : 'en retard de'} ${Math.round(Math.abs(gap))} points sur les travaux`,
+    action: gap > 0 ? 'Conditionner les prochains paiements à l’avancement.' : 'Vérifier les situations de travaux impayées.'
+  });
+  if (project.pendingAmendment > 0) alerts.push({
+    severity: 'Important',
+    title: `Réévaluation ou avenant en attente : ${project.pendingAmendment.toFixed(3).replace('.', ',')} Md DA`,
+    action: 'Obtenir l’approbation ou fixer une date limite.'
+  });
+  return alerts;
+}
+
+export function referenceSummary() {
+  const totalAe = referenceProjects.reduce((sum, project) => sum + project.aeCurrent, 0);
+  const totalCommitted = referenceProjects.reduce((sum, project) => sum + project.committed, 0);
+  const totalPaid = referenceProjects.reduce((sum, project) => sum + project.paid, 0);
+  const weightedPhysical = referenceProjects.reduce((sum, project) => sum + project.physical * project.aeCurrent, 0) / totalAe;
+  const weightedFinancial = referenceProjects.reduce((sum, project) => sum + project.financial * project.aeCurrent, 0) / totalAe;
+  const alerts = referenceProjects.flatMap((project) => referenceAlerts(project).map((alert) => ({ ...alert, project })));
+  const projectGaps = referenceProjects.map((project) => project.financial - project.physical);
+  const pricedAmendments = pendingAmendments.filter((amendment) => amendment.amount != null);
+  return {
+    totalAe,
+    totalCommitted,
+    totalPaid,
+    unpaidCommitments: totalCommitted - totalPaid,
+    weightedPhysical,
+    weightedFinancial,
+    stoppedCount: referenceProjects.filter((project) => referenceStatus(project) === 'À l’arrêt').length,
+    delayedCount: referenceProjects.filter((project) => referenceStatus(project) === 'En retard').length,
+    watchCount: referenceProjects.filter((project) => referenceStatus(project) === 'À surveiller').length,
+    projectCount: referenceProjects.length,
+    portfolioShare: (totalAe / referenceSource.portfolioAe) * 100,
+    alertCount: alerts.length,
+    criticalCount: alerts.filter((alert) => alert.severity === 'Critique').length,
+    gapMin: Math.min(...projectGaps),
+    gapMax: Math.max(...projectGaps),
+    pendingAmendmentCount: pendingAmendments.length,
+    pricedAmendmentCount: pricedAmendments.length,
+    unpricedAmendmentCount: pendingAmendments.length - pricedAmendments.length,
+    pendingAmendmentTotal: pricedAmendments.reduce((sum, amendment) => sum + amendment.amount, 0),
+    alerts
+  };
+}
