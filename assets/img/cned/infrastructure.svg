@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Infrastructures et développement en Algérie</title>
+  <desc id="desc">Illustration institutionnelle d’un pont, d’une route et d’un chantier dans un paysage algérien.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f0f5f8"/>
+      <stop offset="1" stop-color="#c5d8e2"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#809a97"/>
+      <stop offset="1" stop-color="#4c706f"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#485d6c"/>
+      <stop offset="1" stop-color="#253b4b"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#83b6c4"/>
+      <stop offset="1" stop-color="#467d91"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <circle cx="1300" cy="170" r="72" fill="#e8c982" opacity=".8"/>
+  <path d="M0 510 210 310l120 111 183-234 210 240 175-197 270 255 155-160 277 199v476H0Z" fill="#95aaa8"/>
+  <path d="m0 600 246-188 176 153 212-223 250 259 200-185 244 189 150-128 122 95v428H0Z" fill="url(#hill)"/>
+  <path d="M0 704c195-31 317-24 502 2s364 24 550-2 353-17 548 10v286H0Z" fill="#d9d4c2"/>
+  <path d="M0 823c270-46 486-32 720 0 307 42 580 32 880-18v195H0Z" fill="url(#water)"/>
+  <path d="M0 715c272-50 455-38 683 4 218 40 400 44 636 0 106-19 195-28 281-30v92c-91 4-179 13-272 29-265 45-478 37-676 1-239-43-417-47-652-1Z" fill="url(#road)"/>
+  <path d="M0 744c251-40 432-27 641 10 227 40 440 48 676 5 107-20 197-28 283-30" fill="none" stroke="#f3ead2" stroke-width="8" stroke-dasharray="54 38" opacity=".9"/>
+  <g fill="#e9ece8" stroke="#314c5b" stroke-width="8">
+    <path d="M215 605h24V386h16v219h25V354h17v251h21V410h17v195h29V374h17v231h27V432h17v173h28V390h17v215h23v-94h17v94h34v44H215Z"/>
+    <path d="M181 606h430v27H181z"/>
+  </g>
+  <path d="M212 358c105-102 240-102 346 0" fill="none" stroke="#314c5b" stroke-width="11"/>
+  <g fill="#183c5b" opacity=".92">
+    <rect x="1050" y="528" width="72" height="119" rx="3"/>
+    <rect x="1135" y="491" width="105" height="156" rx="3"/>
+    <rect x="1253" y="551" width="64" height="96" rx="3"/>
+    <rect x="1328" y="511" width="98" height="136" rx="3"/>
+  </g>
+  <g fill="#e4bd70">
+    <path d="M1070 548h12v17h-12zm27 0h12v17h-12zm-27 31h12v17h-12zm27 0h12v17h-12z"/>
+    <path d="M1155 515h15v19h-15zm31 0h15v19h-15zm31 0h15v19h-15zm-62 35h15v19h-15zm31 0h15v19h-15zm31 0h15v19h-15z"/>
+    <path d="M1351 534h14v18h-14zm30 0h14v18h-14zm-30 33h14v18h-14zm30 0h14v18h-14z"/>
+  </g>
+  <g fill="#f3f5f2">
+    <path d="M1020 675h196l-31 74h-214z"/>
+    <path d="M1237 680h170l22 69h-194z"/>
+  </g>
+  <g fill="#183c5b">
+    <rect x="1088" y="655" width="19" height="48"/><rect x="1151" y="655" width="19" height="48"/>
+    <rect x="1283" y="655" width="19" height="48"/><rect x="1342" y="655" width="19" height="48"/>
+  </g>
+  <path d="M0 960c350-59 638-21 902 11 288 35 472 9 698-29v58H0Z" fill="#254f51" opacity=".68"/>
+</svg>
