@@ -132,7 +132,7 @@ const roles = {
   pmo: {
     name: 'CNED / PMO',
     workspace: 'I7 · Pilotage CNED',
-    nav: ['dashboard', 'reference-project', 'portfolio', 'kpis', 'alerts', 'finance', 'planning', 'map', 'documents', 'messages', 'reports', 'notifications'],
+    nav: ['dashboard', 'portfolio', 'kpis', 'alerts', 'finance', 'planning', 'map', 'documents', 'messages', 'reports', 'notifications'],
     intro: 'Analyse du portefeuille, fiabilité des données et coordination des actions.',
     projectAction: 'Pilotage analytique'
   },
